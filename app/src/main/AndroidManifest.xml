@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.passivetracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.instagram.android" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.linkedin.android" />
+        <package android:name="com.snapchat.android" />
+        <package android:name="com.indeed.android.jobsearch" />
+        <package android:name="com.twitter.android" />
+        <package android:name="com.google.android.youtube" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:label="PassiveTracker"
+        android:theme="@style/Theme.PassiveTracker">
+
+        <activity
+            android:name=".FaceScanActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ActiveAnalysisActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".MoodNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.passivetracker.MOOD_SELECTED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

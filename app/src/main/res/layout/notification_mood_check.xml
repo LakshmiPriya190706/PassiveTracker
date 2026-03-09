@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which feeling fits you best today?"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/btnLonely"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏠 Lonely"
+        android:padding="8dp"
+        android:textSize="15sp"
+        style="@style/TextAppearance.Compat.Notification.Line2" />
+
+    <TextView
+        android:id="@+id/btnIrritated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💢 Irritated"
+        android:padding="8dp"
+        android:textSize="15sp"
+        style="@style/TextAppearance.Compat.Notification.Line2" />
+
+    <TextView
+        android:id="@+id/btnHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😊 Happy"
+        android:padding="8dp"
+        android:textSize="15sp"
+        style="@style/TextAppearance.Compat.Notification.Line2" />
+
+    <TextView
+        android:id="@+id/btnSad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😢 Sad"
+        android:padding="8dp"
+        android:textSize="15sp"
+        style="@style/TextAppearance.Compat.Notification.Line2" />
+
+    <TextView
+        android:id="@+id/btnStressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😰 Stressed"
+        android:padding="8dp"
+        android:textSize="15sp"
+        style="@style/TextAppearance.Compat.Notification.Line2" />
+
+</LinearLayout>

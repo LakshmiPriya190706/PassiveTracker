@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "808631762037",
+    "project_id": "lumosmind-d3048",
+    "storage_bucket": "lumosmind-d3048.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808631762037:android:10adf4971a80ea3f83cc3c",
+        "android_client_info": {
+          "package_name": "com.example.passivetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7eBdSmW_1s1SMKZhm0Aygt_5JShRRLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

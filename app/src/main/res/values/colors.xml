@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#4A90E2</color>
+    <color name="primary_dark">#357ABD</color>
+    <color name="accent_color">#50E3C2</color>
+    <color name="background_color">#F8FAFF</color>
+
+    <color name="card_blue_start">#4A90E2</color>
+    <color name="card_blue_end">#357ABD</color>
+
+    <color name="card_purple_start">#9B51E0</color>
+    <color name="card_purple_end">#7B3DB0</color>
+
+    <color name="card_green_start">#27AE60</color>
+    <color name="card_green_end">#1E8449</color>
+
+    <color name="card_orange_start">#F2994A</color>
+    <color name="card_orange_end">#E67E22</color>
+
+    <color name="text_main">#2D3436</color>
+    <color name="text_secondary">#636E72</color>
+    <color name="text_hint">#B2BEC3</color>
+
+    <color name="chart_blue">#7edcf4</color>
+    <color name="chart_purple">#B39DDB</color>
+    <color name="text_primary">#2D3436</color>
+    <color name="chat_user_bg">#E3F2FD</color>
+    <color name="chat_ai_bg">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
