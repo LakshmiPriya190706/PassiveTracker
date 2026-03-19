@@ -41,7 +41,7 @@ public class ChatActivity extends AppCompatActivity {
     private final OkHttpClient client = new OkHttpClient();
 
     // OpenRouter API configuration
-    private static final String OPENROUTER_API_KEY = "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";
+    private static final String OPENROUTER_API_KEY = "Your API key";
     private static final String MODEL_URL = "https://openrouter.ai/api/v1/chat/completions";
     private static final String MODEL_ID = "openai/gpt-3.5-turbo";
 
